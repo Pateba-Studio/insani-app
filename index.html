@@ -19,14 +19,14 @@ https://github.com/sno/unity-webgl-responsive
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>ToyotaTamConnect</title>
+    <title>Insani</title>
   </head>
   <body>
     <div class="webgl-wrapper">
       <div class="aspect"></div>
       <div class="webgl-content">
         <div id="unityContainer">
-          <canvas id="unity-canvas" style="background: #231F20"></canvas>
+          <canvas id="unity-canvas" style="background: #E9EBFF"></canvas>
           <!-- <canvas id="unity-canvas" style="background: url('assets/images/loading.gif') center / cover"></canvas> -->
           <div  id="LoadContainer" style="display: block; position: absolute; top: 0; right: 0; height: 100%; width: 100%;">
             
@@ -47,12 +47,12 @@ https://github.com/sno/unity-webgl-responsive
       var LBar = document.getElementById("LoadBar");
       var CBar = document.getElementById("LoadContainer");
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/eab28ddc84a76dbcb6016deb540bac9f.data.unityweb",
+        dataUrl: "Build/577e50d8da61147e215e6906a6c68e7f.data.unityweb",
         frameworkUrl: "Build/f78aac947760d5e18c0375ea86311d58.js.unityweb",
         codeUrl: "Build/0aae985763f45be94dac3d4f4d7827c7.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "ToyotaTamConnect",
+        companyName: "PatebaStudio",
+        productName: "Insani",
         productVersion: "1.0",
       }, (progress) => {
           LBar.style.width = 100 * progress + "%";
